@@ -14,6 +14,7 @@
 		07F2A44E2A3748260067074C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F2A44D2A3748260067074C /* CardView.swift */; };
 		07F2A4512A3749760067074C /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F2A4502A3749760067074C /* CustomBackgroundView.swift */; };
 		07F2A4542A374A980067074C /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F2A4532A374A980067074C /* ColorExtension.swift */; };
+		07F2A4562A3889FD0067074C /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F2A4552A3889FD0067074C /* CustomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		07F2A44D2A3748260067074C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		07F2A4502A3749760067074C /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		07F2A4532A374A980067074C /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		07F2A4552A3889FD0067074C /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				07F2A44D2A3748260067074C /* CardView.swift */,
 				07F2A4502A3749760067074C /* CustomBackgroundView.swift */,
+				07F2A4552A3889FD0067074C /* CustomButtonView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				07F2A4422A37473C0067074C /* ContentView.swift in Sources */,
 				07F2A44E2A3748260067074C /* CardView.swift in Sources */,
 				07F2A4402A37473C0067074C /* HikeApp.swift in Sources */,
+				07F2A4562A3889FD0067074C /* CustomButtonView.swift in Sources */,
 				07F2A4512A3749760067074C /* CustomBackgroundView.swift in Sources */,
 				07F2A4542A374A980067074C /* ColorExtension.swift in Sources */,
 			);
