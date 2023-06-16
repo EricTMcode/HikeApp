@@ -59,10 +59,10 @@
 		07F2A43E2A37473C0067074C /* Hike */ = {
 			isa = PBXGroup;
 			children = (
-				07F2A4522A374A810067074C /* Utility */,
 				07F2A43F2A37473C0067074C /* HikeApp.swift */,
-				07F2A44F2A37494B0067074C /* Component */,
 				07F2A4412A37473C0067074C /* ContentView.swift */,
+				07F2A44F2A37494B0067074C /* Component */,
+				07F2A4522A374A810067074C /* Utility */,
 				07F2A4432A37473D0067074C /* Assets.xcassets */,
 				07F2A4452A37473D0067074C /* Preview Content */,
 			);
