@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0786D2BF2A558904009CABC0 /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786D2BE2A558904009CABC0 /* CustomListRowView.swift */; };
 		07A8B8B22A52E66F00436696 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8B8B12A52E66F00436696 /* CustomCircleView.swift */; };
 		07A8B8B42A52E7D900436696 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8B8B32A52E7D900436696 /* MotionAnimationView.swift */; };
 		07A8B8B72A52EDD500436696 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8B8B62A52EDD500436696 /* SettingsView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0786D2BE2A558904009CABC0 /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 		07A8B8B12A52E66F00436696 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		07A8B8B32A52E7D900436696 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		07A8B8B62A52EDD500436696 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				07F2A4502A3749760067074C /* CustomBackgroundView.swift */,
 				07F2A4552A3889FD0067074C /* CustomButtonView.swift */,
 				07A8B8B32A52E7D900436696 /* MotionAnimationView.swift */,
+				0786D2BE2A558904009CABC0 /* CustomListRowView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				07F2A4422A37473C0067074C /* ContentView.swift in Sources */,
 				07A8B8B22A52E66F00436696 /* CustomCircleView.swift in Sources */,
+				0786D2BF2A558904009CABC0 /* CustomListRowView.swift in Sources */,
 				07F2A44E2A3748260067074C /* CardView.swift in Sources */,
 				07F2A4402A37473C0067074C /* HikeApp.swift in Sources */,
 				07F2A4562A3889FD0067074C /* CustomButtonView.swift in Sources */,
