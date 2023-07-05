@@ -50,6 +50,20 @@ struct SettingsView: View {
                 .frame(maxWidth: .infinity)
             }
             .listRowSeparator(.hidden)
+            
+            Section {
+                Text("List Row")
+            } header: {
+                Text("ABOUT THE APP")
+            } footer: {
+                HStack {
+                    Spacer()
+                    Text("Copyright © All right reserverd.")
+                    Spacer()
+                }
+                .padding(.vertical, 8)
+            }
+
         }
     }
 }
