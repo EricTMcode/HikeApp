@@ -8,6 +8,16 @@
 import SwiftUI
 
 struct SettingsView: View {
+    
+    private let alternatedAppIcons: [String] = [
+        "AppIcon-MagnifyingGlass",
+        "AppIcon-Map",
+        "AppIcon-Mushroom",
+        "AppIcon-Camera",
+        "AppIcon-Backpack",
+        "AppIcon-Campfire"
+    ]
+    
     var body: some View {
         List {
             Section {
@@ -52,6 +62,36 @@ struct SettingsView: View {
             .listRowSeparator(.hidden)
             
             Section {
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 12) {
+                        ForEach(alternatedAppIcons.indices, id: \.self) { item in
+                            Button {
+                                print("Icon was pressed.")
+                            } label: {
+                                Image("\(alternatedAppIcons[item])-Preview")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 80, height: 80)
+                                    .cornerRadius(16)
+                            }
+                        .buttonStyle(.borderless)
+                        }
+                    }
+                }
+                
+                Text("Choose your favorite app icon from the collection above.")
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(.secondary)
+                    .font(.footnote)
+                
+            } header: {
+                Text("Alternate Icons")
+            }
+            .listRowSeparator(.hidden)
+
+            
+            Section {
                 CustomListRowView(rowLabel: "Application", rowIcon: "apps.iphone", rowContent: "Hike", rowTintColor: .blue)
                 CustomListRowView(rowLabel: "Compatibility", rowIcon: "info.circle", rowContent: "iOS, iPadOS", rowTintColor: .red)
                 CustomListRowView(rowLabel: "Technology", rowIcon: "swift", rowContent: "swift", rowTintColor: .orange)
@@ -69,7 +109,7 @@ struct SettingsView: View {
                 }
                 .padding(.vertical, 8)
             }
-
+            
         }
     }
 }
