@@ -11,6 +11,6 @@
 ## Screenshots
 
 <div>
-  <img src="Screenshots/screen-1.png" width="350">
-  <img src="Screenshots/screen-2.png" width="350">
+  <img src="Screenshots/Screen-1.png" width="350">
+  <img src="Screenshots/Screen-2.png" width="350">
 </div>
